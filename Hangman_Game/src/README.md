@@ -1,1 +1,2 @@
+# Hangman
 This is an implementation of a special version of Hangman. In this version, the game cheats and does not let the user actually guess a word until only 20% of the words in the dictionary file remain. This means the user must develop a strategy and use their limited number of guesses wisely to beat the game. This project was completed as an assignment for Dr. Barbara Anthony's Computer Science I course. Credit to Dr. Anthony for the assignment and Nolan Winsmann for help with printing the progress of the game visually in the hangman figure. 
