@@ -1,8 +1,3 @@
-//Spacepirate
-//Mitchell Osborn and Dominic Blea
-//Dr. Anthony
-//November 5th, 2018
-
 import acm.graphics.*;
 import acm.program.*;
 import java.awt.*;
@@ -65,7 +60,7 @@ public class SpacePirate extends GraphicsProgram {
 
 		setBackground(Color.BLACK);
 
-		// put the instructions on the screen
+		// print the instructions onto the screen
 		GLabel title1 = new GLabel ("Welcome to Space Pirate" , WIDTH/3-140, HEIGHT/2-300);
 		title1.setColor(Color.WHITE);
 		title1.setFont(new Font("Helvetica", Font.BOLD, 80));
@@ -98,7 +93,7 @@ public class SpacePirate extends GraphicsProgram {
 		add(score);
 
 	}
-	// if a key is pressed and matches one of the defined functions, it will activate the directional boolean and call updateVelocity()
+	// Ff a key is pressed and matches one of the defined functions, it will activate the directional boolean and call updateVelocity()
 	// for the arrow keys, or start the game if the key is 's', pause the game if the key is 'p', and quit the game if it is 'q'.
 	// On each key press, the game checks to see if the lander has landed. If it has, it sets the respective landing pad to not
 	// visible and starts the motion of the lander again by changing hasLanded to false
@@ -178,13 +173,13 @@ public class SpacePirate extends GraphicsProgram {
 
 		clearScreen(); // clear all objects
 
-		// draw everything
+		// display the map of the game
 		initOcean();
 		initLandingPads();			
 		placeLander();		
 		initAsteroids();
 
-		// set the game status
+		// initialize game function variables
 		gameRunning = false;
 		padsVisited = 0;	
 		hasLanded=false;
@@ -368,7 +363,7 @@ public class SpacePirate extends GraphicsProgram {
 		}
 		return getElementAt(land.getX()+x,land.getY()+y) != null && getElementAt(land.getX()+x,land.getY()+y).getColor() == color;
 	}
-	//checkForAsteroidCollision utilizes checkCollision to see if the lander makes contact with an asteroid. 
+	//checkForAsteroidCollision utilizes checkCollision() to see if the lander makes contact with an asteroid. 
 	//For checkCollision to return true, an object must be present at the specified corner of the lander
 	//and that object must be white. If this is true, checkForAsteroidCollision calls gameOver and ends the game.
 	private void checkForAsteroidCollision() {
@@ -423,7 +418,3 @@ public class SpacePirate extends GraphicsProgram {
 	}
 
 }
-//Honor Code
-//I have acted with honesty and integrity in producing this work and am unaware of anyone who has not.
-//
-//Mitchell Osborn, Dominic Blea
