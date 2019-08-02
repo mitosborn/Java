@@ -1,9 +1,3 @@
-/* Hangman project
- * 12-4-18
- * We have acted with honesty and integrity and are unaware of anyone who has not
- * -Mitchell Osborn and Nolan Winsman
- */
-//imports for random, scanner and reading files
 import java.util.Random;
 import java.util.Scanner;
 import java.io.*;
