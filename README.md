@@ -2,7 +2,7 @@
 Programming projects created utilizing Java. This repository contains personal projects and projects related to courses completed.
 Credit to professors for ideas and partners in certain projects. 
 
-Projects:
+## Projects
 1. NearestNeighbor: Utilizing a binary search tree and a point object, locate the nearest neighbor (point) to another point.
 2. QueueProcessScheduling: Project that attempts to emulate the process scheduler for a single thread in an operating system.
 3. SpacePirate: Simple game where the user is in a spaceship and attempts to navigate a field of asteroids onto landing pads. 
