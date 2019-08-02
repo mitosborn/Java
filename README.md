@@ -1,7 +1,6 @@
-# JavaProgrammingProjects
-Programming projects created utilizing Java. This repository contains personal projects and projects related to courses completed.
+# Description
+This repository contains programming projects created utilizing Java. Located inside are personal projects and projects related to courses completed.
 Credit to professors for ideas and partners in certain projects. 
-
 ## Projects
 1. NearestNeighbor: Utilizing a binary search tree and a point object, locate the nearest neighbor (point) to another point.
 2. QueueProcessScheduling: Project that attempts to emulate the process scheduler for a single thread in an operating system.
