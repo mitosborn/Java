@@ -1,5 +1,4 @@
 Author of assignment: Dr. Jacob Schrum
-Student completing assignment: Mitchell Osborn
 
 The purpose of this project was to utilize the power of a binary search tree in combination with a point class containing x and y
 coordinates to determine the nearest neighbor to another point. This was a challenging task as it required finding a way to sort
