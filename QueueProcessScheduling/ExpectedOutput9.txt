@@ -1,0 +1,25 @@
+At time 0: run "Startup" for 50 time units
+At time 50: run "Update Registry" for 100 time units
+At time 150: run "Virus Scan" for 500 time units
+At time 650: run "Index files" for 150 time units
+At time 800: run "Spotify" for 500 time units
+At time 1300: run "AdobePDF" for 25 time units
+At time 1325: run "Chrome" for 120 time units
+At time 1445: run "Flashplayer" for 50 time units
+At time 1495: run "Video" for 250 time units
+At time 1745: run "Facebook" for 50 time units
+At time 1795: run "Render Video" for 350 time units
+At time 2145: run "New tab" for 10 time units
+At time 2155: run "User search" for 20 time units
+At time 2175: run "Video chat" for 450 time units
+CPU idle from time 2625 until time 2725
+At time 2725: run "Segmentation fault" for 50 time units
+At time 2775: run "Recovery" for 50 time units
+CPU idle from time 2825 until time 2900
+At time 2900: run "JavaRuntime" for 50 time units
+At time 2950: run "Minecraft" for 250 time units
+At time 3200: run "Battlefield V" for 500 time units
+At time 3700: run "GPU Scheduler" for 500 time units
+At time 4200: run "Stock manager" for 50 time units
+At time 4250: run "Alarm" for 50 time units
+At time 4300: run "Shutdown" for 50 time units

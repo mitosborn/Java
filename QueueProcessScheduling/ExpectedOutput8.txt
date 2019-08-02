@@ -1,0 +1,7 @@
+At time 0: run "First" for 43 time units
+At time 43: run "Second" for 43 time units
+At time 86: run "Third" for 43 time units
+At time 129: run "First" for 7 time units
+At time 136: run "Second" for 43 time units
+At time 179: run "Third" for 7 time units
+At time 186: run "Second" for 14 time units
