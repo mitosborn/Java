@@ -13,4 +13,4 @@ project's implementation may be more complicated, it is able to locate the neare
 of a binary search tree. In comparison, the brute force method of calculating the nearest point by calculating all the distances
 and selecting the minimum has a time complexity of O(n). 
 ### Credit
-This project was created as an assignment for Dr. Jacob Schrum's Computer Science II course
+Credit to Dr. Jacob Schrum for the assignment.
