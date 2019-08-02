@@ -1,5 +1,3 @@
-Author of assignment: Dr. Jacob Schrum
-
 The purpose of this project was to utilize the power of a binary search tree in combination with a point class containing x and y
 coordinates to determine the nearest neighbor to another point. This was a challenging task as it required finding a way to sort
 a BST when there are two variables that can be used as criteria per node, traversing this tree in an efficent manner, adding new
@@ -13,3 +11,4 @@ project's implementation may be more complicated, it is able to locate the neare
 of a binary search tree. In comparison, the brute force method of calculating the nearest point by calculating all the distances
 and selecting the minimum has a time complexity of O(n). 
  
+This project was created as an assignment for Dr. Jacob Schrum's Computer Science II course
