@@ -1,20 +1,11 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-//Mitchell Osborn, Amir Samiepour
-//Dr. Schrum - Computer Science II
-//February 18th, 2019
-// We have acted with honesty and integrity in producing this work and are unaware of anyone who has not.
 
 /**
- * This program reads valid arithmetic LISP expressions
- * from an input text file one line at a time, and
- * evaluates the expressions to calculate the numeric
- * outputs. Each expression and the resulting answer
- * are printed to the console. The code for evaluating
- * LISP expressions must be provided by you, and will
- * make use of stacks.
- *
+ * This program functions by reading in a valid LISP expression from a file, spacing the expression out, 
+ * and then converting it to postfix form. This form makes it easier to evaluate the final result of the 
+ * LISP expression.
  */
 public class LispEvaluate {
 
@@ -40,9 +31,6 @@ public class LispEvaluate {
 	 * Given a String containing a valid LISP expression using only
 	 * the operators +, -, /, and *, evaluate the expression and
 	 * return the result.
-	 * 
-	 * NOTE: You are NOT allowed to use ArrayLists. Your algorithm(s)
-	 * should be based on stacks.
 	 * 
 	 * @param lispExpression Valid arithmetic LISP expression.
 	 * @return Result of evaluating LISP expression.
@@ -76,11 +64,9 @@ public class LispEvaluate {
 				result += " " + lispExpression.charAt(i) + " ";
 			}
 			//Else, leave the char alone, just copy over into result
-
 			else {
 				result+= lispExpression.charAt(i);
 			}
-
 		}
 		return result;
 	}
@@ -107,10 +93,6 @@ public class LispEvaluate {
 				break;
 			default:
 				result += " " + token;
-				//TODO
-
-
-
 			}
 		}
 		return result;
@@ -311,7 +293,6 @@ public class LispEvaluate {
 			else {
 				stack.push(firstValue + secondValue);
 			}
-
 		}
 		return true;
 	}
