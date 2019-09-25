@@ -1,0 +1,39 @@
+Is the animal a mammal?
+does it have: gills?
+does it have: hole?
+Squid
+NULL
+NULL
+does it have: Pointy nose?
+Whale
+NULL
+NULL
+Dolphin
+NULL
+NULL
+does it have: Blows up?
+Goldfish
+NULL
+NULL
+Blowfish
+NULL
+NULL
+does it have: Shell?
+does it have: Spikes?
+does it have: Tail?
+Cow
+NULL
+NULL
+Horse
+NULL
+NULL
+Porcupine
+NULL
+NULL
+does it have: Rolls up?
+Turtle
+NULL
+NULL
+Armadillio
+NULL
+NULL
