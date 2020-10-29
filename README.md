@@ -1,3 +1,4 @@
+## Description
 This repository contains programming projects created utilizing Java. Located inside are personal projects and projects related to courses completed.
 Credit to professors for ideas and partners in certain projects. 
 ## Projects
